@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "primer-cultivo-interior",
+    "title": { "es": "Tu primer cultivo de interior: guía básica", "ca": "El teu primer cultiu d'interior: guia bàsica", "en": "Your first indoor grow: basic guide" },
+    "excerpt": { "es": "Pasos esenciales para montar tu primer armario de cultivo y conseguir una cosecha sana.", "ca": "Passos essencials per muntar el teu primer armari de cultiu i aconseguir una collita sana.", "en": "Essential steps to set up your first grow tent and get a healthy harvest." },
+    "date": "2024-11-15",
+    "image": "/banner.jpeg",
+    "content": { "es": "Un armario de cultivo, una buena LED, extracción y un sustrato adecuado son la base. Empieza con pocas plantas y variedades fáciles. Controla humedad y temperatura y respeta los ciclos de luz. En unas semanas verás los primeros resultados.", "ca": "Un armari de cultiu, una bona LED, extracció i un substrat adequat són la base. Comença amb poques plantes i varietats fàcils. Controla humitat i temperatura i respecta els cicles de llum. En unes setmanes veuràs els primers resultats.", "en": "A grow tent, a good LED, extraction and suitable substrate are the foundation. Start with few plants and easy varieties. Control humidity and temperature and respect light cycles. In a few weeks you will see the first results." }
+  },
+  {
+    "slug": "como-elegir-aceite-cbd",
+    "title": { "es": "Cómo elegir tu aceite CBD", "ca": "Com triar el teu oli CBD", "en": "How to choose your CBD oil" },
+    "excerpt": { "es": "Concentración, full spectrum vs aislado y qué buscar en el etiquetado.", "ca": "Concentració, full spectrum vs aïllat i què buscar a l'etiquetatge.", "en": "Concentration, full spectrum vs isolate and what to look for on the label." },
+    "date": "2024-10-28",
+    "image": "/productos/aceite-cbd.webp",
+    "content": { "es": "El porcentaje indica la cantidad de CBD por ml. Para empezar, 5% o 10% suele ser suficiente. Full spectrum incluye otros cannabinoides naturales; el aislado es solo CBD. Revisa que el producto tenga análisis de laboratorio.", "ca": "El percentatge indica la quantitat de CBD per ml. Per començar, 5% o 10% sol ser suficient. Full spectrum inclou altres cannabinoides naturals; l'aïllat és només CBD. Revisa que el producte tingui anàlisis de laboratori.", "en": "The percentage indicates the amount of CBD per ml. To start, 5% or 10% is usually enough. Full spectrum includes other natural cannabinoids; isolate is CBD only. Check that the product has lab analysis." }
+  },
+  {
+    "slug": "sustrato-y-fertilizantes",
+    "title": { "es": "Sustrato y fertilizantes para principiantes", "ca": "Substrat i fertilitzants per a principiants", "en": "Substrate and fertilizers for beginners" },
+    "excerpt": { "es": "Qué sustrato usar y cómo abonar en crecimiento y floración sin pasarte.", "ca": "Quin substrat fer servir i com adobar en creixement i floració sense passar-te.", "en": "What substrate to use and how to feed in veg and bloom without overdoing it." },
+    "date": "2024-10-10",
+    "image": "/productos/sustrato-50l.jpg",
+    "content": { "es": "Un sustrato universal de calidad ya lleva parte de los nutrientes. En crecimiento usa fertilizantes con más nitrógeno; en floración, más fósforo y potasio. Sigue las dosis del fabricante y no aumentes por tu cuenta.", "ca": "Un substrat universal de qualitat ja porta part dels nutrients. En creixement fes servir fertilitzants amb més nitrogen; en floració, més fòsfor i potassi. Segueix les dosis del fabricant i no augmentis pel teu compte.", "en": "A quality universal substrate already contains some nutrients. In veg use fertilizers with more nitrogen; in bloom, more phosphorus and potassium. Follow the manufacturer's doses and do not increase on your own." }
+  }
+]

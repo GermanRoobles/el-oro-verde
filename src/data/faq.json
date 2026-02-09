@@ -1,0 +1,27 @@
+[
+  {
+    "id": "envio",
+    "question": { "es": "¿Cuánto tarda el envío?", "ca": "Quant tarda l'enviament?", "en": "How long does shipping take?" },
+    "answer": { "es": "En la península el pedido suele llegar en 24-48 horas laborables. Baleares, Canarias y UE pueden tardar 3-7 días.", "ca": "A la península la comanda sol arribar en 24-48 h laborables. Balears, Canàries i UE poden trigar 3-7 dies.", "en": "In mainland Spain orders usually arrive in 24-48 working hours. Balearics, Canaries and EU may take 3-7 days." }
+  },
+  {
+    "id": "devoluciones",
+    "question": { "es": "¿Puedo devolver un producto?", "ca": "Puc tornar un producte?", "en": "Can I return a product?" },
+    "answer": { "es": "Sí. Tienes 14 días desde la recepción para devolverlo en su embalaje original. Productos de higiene o abiertos pueden tener restricciones.", "ca": "Sí. Tens 14 dies des de la recepció per tornar-lo en el seu embalatge original. Productes d'higiene o oberts poden tenir restriccions.", "en": "Yes. You have 14 days from receipt to return it in its original packaging. Hygiene or opened products may have restrictions." }
+  },
+  {
+    "id": "pago",
+    "question": { "es": "¿Qué métodos de pago aceptáis?", "ca": "Quins mètodes de pagament accepteu?", "en": "What payment methods do you accept?" },
+    "answer": { "es": "Tarjeta de crédito/débito, transferencia bancaria y efectivo en tienda física.", "ca": "Targeta de crèdit/dèbit, transferència bancària i efectiu a botiga física.", "en": "Credit/debit card, bank transfer and cash in physical store." }
+  },
+  {
+    "id": "cbd-legal",
+    "question": { "es": "¿El CBD es legal en España?", "ca": "El CBD és legal a Espanya?", "en": "Is CBD legal in Spain?" },
+    "answer": { "es": "Sí. Los productos con CBD (cannabidiol) derivados del cáñamo con menos del 0,2% de THC son legales para uso cosmético y bienestar.", "ca": "Sí. Els productes amb CBD (cannabidiol) derivats del cànem amb menys del 0,2% de THC són legals per a ús cosmètic i benestar.", "en": "Yes. CBD (cannabidiol) products from hemp with less than 0.2% THC are legal for cosmetic and wellness use." }
+  },
+  {
+    "id": "mayores-18",
+    "question": { "es": "¿Por qué tengo que ser mayor de 18 años?", "ca": "Per què he de ser major de 18 anys?", "en": "Why do I have to be 18 or over?" },
+    "answer": { "es": "Por ley, el acceso a growshops y productos de cultivo está restringido a mayores de edad. Verificamos la edad para cumplir la normativa.", "ca": "Per llei, l'accés a growshops i productes de cultiu està restringit a majors d'edat. Verifiquem l'edat per complir la normativa.", "en": "By law, access to grow shops and growing products is restricted to adults. We verify age to comply with regulations." }
+  }
+]

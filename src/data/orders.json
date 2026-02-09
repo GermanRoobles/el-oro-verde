@@ -1,0 +1,39 @@
+[
+  {
+    "id": "ORD-001",
+    "userId": "u1",
+    "lines": [
+      { "productId": "p10", "productName": "Papel RAW Classic 1¼", "quantity": 2, "price": 4.50 },
+      { "productId": "p18", "productName": "Mechero Clipper recargable", "quantity": 1, "price": 8.00 }
+    ],
+    "total": 17.00,
+    "status": "delivered",
+    "shippingAddress": {
+      "name": "Usuario Demo",
+      "address": "Calle Example 123",
+      "city": "Barcelona",
+      "postalCode": "08001",
+      "country": "España",
+      "phone": "+34 600 000 000"
+    },
+    "createdAt": "2024-01-20T14:30:00.000Z"
+  },
+  {
+    "id": "ORD-002",
+    "userId": "u1",
+    "lines": [
+      { "productId": "p7", "productName": "Aceite CBD 10% 10ml", "quantity": 1, "price": 34.99 }
+    ],
+    "total": 34.99,
+    "status": "shipped",
+    "shippingAddress": {
+      "name": "Usuario Demo",
+      "address": "Calle Example 123",
+      "city": "Barcelona",
+      "postalCode": "08001",
+      "country": "España",
+      "phone": "+34 600 000 000"
+    },
+    "createdAt": "2024-02-01T09:15:00.000Z"
+  }
+]

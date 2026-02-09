@@ -1,0 +1,44 @@
+[
+  {
+    "productId": "p1",
+    "author": "Carlos M.",
+    "rating": 5,
+    "date": "2024-11-20",
+    "text": { "es": "Excelentes semillas, germinación perfecta. Muy contento con la compra.", "ca": "Excel·lents llavors, germinació perfecta. Molt content amb la compra.", "en": "Excellent seeds, perfect germination. Very happy with the purchase." }
+  },
+  {
+    "productId": "p1",
+    "author": "Ana G.",
+    "rating": 5,
+    "date": "2024-10-15",
+    "text": { "es": "Segunda vez que compro. Calidad constante y envío rápido.", "ca": "Segona vegada que compro. Qualitat constant i enviament ràpid.", "en": "Second time buying. Consistent quality and fast shipping." }
+  },
+  {
+    "productId": "p7",
+    "author": "Luis R.",
+    "rating": 5,
+    "date": "2024-12-01",
+    "text": { "es": "El aceite CBD me ayuda con el descanso. Producto de confianza.", "ca": "L'oli CBD m'ajuda amb el descans. Producte de confiança.", "en": "The CBD oil helps me with sleep. Trusted product." }
+  },
+  {
+    "productId": "p7",
+    "author": "María S.",
+    "rating": 4,
+    "date": "2024-11-08",
+    "text": { "es": "Muy buen producto. El bote dura bastante. Recomendable.", "ca": "Molt bon producte. L'envàs dura força. Recomanable.", "en": "Very good product. The bottle lasts a while. Recommended." }
+  },
+  {
+    "productId": "p2",
+    "author": "Javier L.",
+    "rating": 5,
+    "date": "2024-10-22",
+    "text": { "es": "Panel LED potente y bien construido. El cultivo responde genial.", "ca": "Panel LED potent i ben construït. El cultiu respon genial.", "en": "Powerful and well-built LED panel. Plants respond great." }
+  },
+  {
+    "productId": "p10",
+    "author": "Paula V.",
+    "rating": 5,
+    "date": "2024-11-30",
+    "text": { "es": "Siempre compro RAW aquí. Buen precio y envío discreto.", "ca": "Sempre compro RAW aquí. Bon preu i enviament discret.", "en": "I always buy RAW here. Good price and discreet shipping." }
+  }
+]

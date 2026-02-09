@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cultivo",
+    "name": { "es": "Cultivo", "ca": "Cultiu", "en": "Growing" },
+    "slug": "cultivo",
+    "description": { "es": "Semillas, equipamiento interior, iluminación, sustratos y fertilizantes.", "ca": "Llavors, equipament interior, il·luminació, substrats i fertilitzants.", "en": "Seeds, indoor equipment, lighting, substrates and fertilizers." },
+    "order": 1
+  },
+  {
+    "id": "cbd",
+    "name": { "es": "CBD", "ca": "CBD", "en": "CBD" },
+    "slug": "cbd",
+    "description": { "es": "Productos con cannabidiol.", "ca": "Productes amb cannabidiol.", "en": "Cannabidiol products." },
+    "order": 2
+  },
+  {
+    "id": "parafernalia",
+    "name": { "es": "Parafernalia", "ca": "Parafinalia", "en": "Paraphernalia" },
+    "slug": "parafernalia",
+    "description": { "es": "Bandejas, papel de liar, conos, blunts y accesorios.", "ca": "Safates, paper de lligar, cons, blunts i accessoris.", "en": "Trays, rolling papers, cones, blunts and accessories." },
+    "order": 3
+  },
+  {
+    "id": "accesorios",
+    "name": { "es": "Accesorios", "ca": "Accessoris", "en": "Accessories" },
+    "slug": "accesorios",
+    "description": { "es": "Fundas, boquillas, filtros y merchandising.", "ca": "Fundes, boques, filtres i merchandising.", "en": "Cases, tips, filters and merchandise." },
+    "order": 4
+  }
+]

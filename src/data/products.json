@@ -1,0 +1,1849 @@
+[
+  {
+    "id": "p1",
+    "name": {
+      "es": "Semillas Feminizadas Amnesia",
+      "ca": "Llavors Feminitzades Amnesia",
+      "en": "Amnesia Feminized Seeds"
+    },
+    "slug": "semillas-amnesia",
+    "description": {
+      "es": "Pack 3 semillas feminizadas, alta producción.",
+      "ca": "Pack 3 llavors feminitzades, alta producció.",
+      "en": "Pack of 3 feminized seeds, high yield."
+    },
+    "price": 24.99,
+    "priceOffer": 19.99,
+    "images": [
+      "/productos/semillas-amnesia.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "El Oro Verde",
+    "stock": 50,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p2",
+    "name": {
+      "es": "Lámpara LED 600W Full Spectrum",
+      "ca": "Llum LED 600W Full Spectrum",
+      "en": "600W Full Spectrum LED Lamp"
+    },
+    "slug": "lampara-led-600w",
+    "description": {
+      "es": "Panel LED profesional para cultivo interior.",
+      "ca": "Panel LED professional per a cultiu interior.",
+      "en": "Professional LED panel for indoor growing."
+    },
+    "price": 189,
+    "images": [
+      "/productos/led-600w-full-spectrum.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 12,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p3",
+    "name": {
+      "es": "Fertilizante Crecimiento 1L",
+      "ca": "Fertilitzant Creixement 1L",
+      "en": "Growth Fertilizer 1L"
+    },
+    "slug": "fertilizante-crecimiento-1l",
+    "description": {
+      "es": "Nutrientes para fase de crecimiento.",
+      "ca": "Nutrients per a fase de creixement.",
+      "en": "Nutrients for growth phase."
+    },
+    "price": 14.5,
+    "images": [
+      "/productos/fertilizante-crecimiento-flower-1-l.webp"
+    ],
+    "categoryId": "cultivo",
+    "brand": "BioBizz",
+    "stock": 80,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p4",
+    "name": {
+      "es": "Sustrato Universal 50L",
+      "ca": "Substrat Universal 50L",
+      "en": "Universal Substrate 50L"
+    },
+    "slug": "sustrato-universal-50l",
+    "description": {
+      "es": "Sustrato de calidad para todo tipo de cultivo.",
+      "ca": "Substrat de qualitat per a tot tipus de cultiu.",
+      "en": "Quality substrate for all types of growing."
+    },
+    "price": 22,
+    "images": [
+      "/productos/sustrato-50l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "El Oro Verde",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p5",
+    "name": {
+      "es": "Extractor 125mm 400m³/h",
+      "ca": "Extractor 125mm 400m³/h",
+      "en": "125mm 400m³/h Extractor Fan"
+    },
+    "slug": "extractor-125",
+    "description": {
+      "es": "Ventilación y extracción para armarios.",
+      "ca": "Ventilació i extracció per a armaris.",
+      "en": "Ventilation and extraction for grow tents."
+    },
+    "price": 45,
+    "images": [
+      "/productos/extractor-125mm.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 25,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p6",
+    "name": {
+      "es": "Armario de cultivo 80x80x180",
+      "ca": "Armari de cultiu 80x80x180",
+      "en": "Grow tent 80x80x180cm"
+    },
+    "slug": "armario-80x80",
+    "description": {
+      "es": "Armario reflectante con ventanas.",
+      "ca": "Armari reflectant amb finestres.",
+      "en": "Reflective tent with windows."
+    },
+    "price": 89,
+    "images": [
+      "/productos/armario-80x80x180.webp"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 15,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p7",
+    "name": {
+      "es": "Aceite CBD 10% 10ml",
+      "ca": "Oli CBD 10% 10ml",
+      "en": "CBD Oil 10% 10ml"
+    },
+    "slug": "aceite-cbd-10",
+    "description": {
+      "es": "Aceite de cannabidiol full spectrum.",
+      "ca": "Oli de cannabidiol full spectrum.",
+      "en": "Full spectrum cannabidiol oil."
+    },
+    "price": 34.99,
+    "images": [
+      "/productos/aceite-cbd.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 60,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p8",
+    "name": {
+      "es": "Flores CBD 5g",
+      "ca": "Flors CBD 5g",
+      "en": "CBD Flowers 5g"
+    },
+    "slug": "flores-cbd-5g",
+    "description": {
+      "es": "Cogollos de CBD, variedad legal.",
+      "ca": "Cogollos de CBD, varietat legal.",
+      "en": "CBD buds, legal variety."
+    },
+    "price": 28,
+    "images": [
+      "/productos/flores-cbd-5g.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "Generic",
+    "stock": 30,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p9",
+    "name": {
+      "es": "Crema CBD 100ml",
+      "ca": "Crema CBD 100ml",
+      "en": "CBD Cream 100ml"
+    },
+    "slug": "crema-cbd-100ml",
+    "description": {
+      "es": "Crema corporal con CBD para cuidado de la piel.",
+      "ca": "Crema corporal amb CBD per a cura de la pell.",
+      "en": "Body cream with CBD for skin care."
+    },
+    "price": 24.5,
+    "images": [
+      "/productos/crema-cbd.jpg"
+    ],
+    "categoryId": "cbd",
+    "brand": "Generic",
+    "stock": 45,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p10",
+    "name": {
+      "es": "Papel RAW Classic 1¼",
+      "ca": "Paper RAW Classic 1¼",
+      "en": "RAW Classic 1¼ Papers"
+    },
+    "slug": "papel-raw-classic",
+    "description": {
+      "es": "Caja 32 hojas, papel natural sin blanquear.",
+      "ca": "Caixa 32 fulles, paper natural sense blanquejar.",
+      "en": "Box 32 leaves, unbleached natural paper."
+    },
+    "price": 4.5,
+    "images": [
+      "/productos/papel-ocb-premium-1.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 200,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p11",
+    "name": {
+      "es": "Bandeja liar madera RAW",
+      "ca": "Safata lligar fusta RAW",
+      "en": "RAW Wood Rolling Tray"
+    },
+    "slug": "bandeja-raw-madera",
+    "description": {
+      "es": "Bandeja de madera con compartimentos.",
+      "ca": "Safata de fusta amb compartiments.",
+      "en": "Wooden tray with compartments."
+    },
+    "price": 18,
+    "images": [
+      "/productos/bandeja-madera-raw.jpeg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 35,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p12",
+    "name": {
+      "es": "Conos RAW 1¼ - 32u",
+      "ca": "Cons RAW 1¼ - 32u",
+      "en": "RAW 1¼ Cones - 32pk"
+    },
+    "slug": "conos-raw-32",
+    "description": {
+      "es": "Conos pre-enrollados tamaño king.",
+      "ca": "Cons pre-enrotllats mida king.",
+      "en": "Pre-rolled king size cones."
+    },
+    "price": 5.99,
+    "images": [
+      "/productos/conos-raw-32u.jpg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 150,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p13",
+    "name": {
+      "es": "Papel OCB Premium",
+      "ca": "Paper OCB Premium",
+      "en": "OCB Premium Papers"
+    },
+    "slug": "papel-ocb-premium",
+    "description": {
+      "es": "Papel fino premium, caja 50 hojas.",
+      "ca": "Paper fi premium, caixa 50 fulles.",
+      "en": "Thin premium paper, 50 sheet box."
+    },
+    "price": 3.99,
+    "images": [
+      "/productos/papel-ocb-premium-1.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "OCB",
+    "stock": 120,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p14",
+    "name": {
+      "es": "Blunt Juicy 2u",
+      "ca": "Blunt Juicy 2u",
+      "en": "Juicy Blunts 2pk"
+    },
+    "slug": "blunt-juicy",
+    "description": {
+      "es": "Blunts sabor natural.",
+      "ca": "Blunts sabor natural.",
+      "en": "Natural flavour blunts."
+    },
+    "price": 6.5,
+    "images": [
+      "/productos/blunt-juicy.jpeg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Juicy",
+    "stock": 80,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p15",
+    "name": {
+      "es": "Boquillas RAW 300u",
+      "ca": "Boques RAW 300u",
+      "en": "RAW Tips 300pk"
+    },
+    "slug": "boquillas-raw-300",
+    "description": {
+      "es": "Boquillas de papel sin blanquear.",
+      "ca": "Boques de paper sense blanquejar.",
+      "en": "Unbleached paper tips."
+    },
+    "price": 4,
+    "images": [
+      "/productos/filtros-raw.jpeg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "RAW",
+    "stock": 100,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p16",
+    "name": {
+      "es": "Filtros Jano 125u",
+      "ca": "Filtres Jano 125u",
+      "en": "Jano Filters 125pk"
+    },
+    "slug": "filtros-jano",
+    "description": {
+      "es": "Filtros activos de carbón.",
+      "ca": "Filtres actius de carbó.",
+      "en": "Active carbon filters."
+    },
+    "price": 7.99,
+    "images": [
+      "/productos/filtros-jano.webp"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Jano",
+    "stock": 60,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p17",
+    "name": {
+      "es": "Fundas silicona RAW",
+      "ca": "Fundes silicona RAW",
+      "en": "RAW Silicon Cases"
+    },
+    "slug": "fundas-silicona-raw",
+    "description": {
+      "es": "Fundas protectoras para cajas de papel.",
+      "ca": "Fundes protectores per a caixes de paper.",
+      "en": "Protective cases for paper boxes."
+    },
+    "price": 9.5,
+    "images": [
+      "/productos/funda-silicona-raw.png"
+    ],
+    "categoryId": "accesorios",
+    "brand": "RAW",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p18",
+    "name": {
+      "es": "Mechero Clipper recargable",
+      "ca": "Mecó Clipper recarregable",
+      "en": "Clipper rechargeable lighter"
+    },
+    "slug": "mechero-clipper",
+    "description": {
+      "es": "Mechero Clipper metal recargable.",
+      "ca": "Mecó Clipper metall recarregable.",
+      "en": "Metal rechargeable Clipper lighter."
+    },
+    "price": 8,
+    "images": [
+      "/productos/mechero-clipper.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Clipper",
+    "stock": 90,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p19",
+    "name": {
+      "es": "Pack El Oro Verde Iniciación",
+      "ca": "Pack El Oro Verde Iniciació",
+      "en": "El Oro Verde Starter Pack"
+    },
+    "slug": "pack-oro-verde-inicio",
+    "description": {
+      "es": "Papel, filtros, mechero y bandeja de la casa.",
+      "ca": "Paper, filtres, mecó i safata de la casa.",
+      "en": "Papers, filters, lighter and house tray."
+    },
+    "price": 29.99,
+    "priceOffer": 24.99,
+    "images": [
+      "/productos/pack-iniciacion.jpeg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "El Oro Verde",
+    "stock": 25,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p20",
+    "name": {
+      "es": "Macetas geotextiles 5L x5",
+      "ca": "Testos geotèxtils 5L x5",
+      "en": "5L Geotextile Pots x5"
+    },
+    "slug": "macetas-geotextiles-5l",
+    "description": {
+      "es": "Pack 5 macetas de tela para cultivo.",
+      "ca": "Pack 5 testos de tela per a cultiu.",
+      "en": "Pack of 5 fabric pots for growing."
+    },
+    "price": 12,
+    "images": [
+      "/productos/macetas-geotextil-5u.webp"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 70,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p21",
+    "name": {
+      "es": "Fertilizante Floración 1L",
+      "ca": "Fertilitzant Floració 1L",
+      "en": "Flowering Fertilizer 1L"
+    },
+    "slug": "fertilizante-floracion",
+    "description": {
+      "es": "Nutrientes para fase de floración.",
+      "ca": "Nutrients per a fase de floració.",
+      "en": "Nutrients for flowering phase."
+    },
+    "price": 15.99,
+    "images": [
+      "/productos/fertilizante-floracion-1l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "BioBizz",
+    "stock": 55,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p22",
+    "name": {
+      "es": "Controlador de olores carbón",
+      "ca": "Controlador d'olors carbó",
+      "en": "Carbon odour controller"
+    },
+    "slug": "controlador-olores",
+    "description": {
+      "es": "Filtro de carbón activo para extracción.",
+      "ca": "Filtre de carbó actiu per a extracció.",
+      "en": "Active carbon filter for extraction."
+    },
+    "price": 52,
+    "images": [
+      "/productos/controlador-olores-carbon.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 18,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p23",
+    "name": {
+      "es": "Gominolas CBD 20mg",
+      "ca": "Gominoles CBD 20mg",
+      "en": "CBD Gummies 20mg"
+    },
+    "slug": "gominolas-cbd",
+    "description": {
+      "es": "Gominolas con 20mg CBD por unidad.",
+      "ca": "Gominoles amb 20mg CBD per unitat.",
+      "en": "Gummies with 20mg CBD per piece."
+    },
+    "price": 19.99,
+    "images": [
+      "/productos/gominolas-cbd.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 45,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p24",
+    "name": {
+      "es": "Vaporizador portátil",
+      "ca": "Vaporitzador portàtil",
+      "en": "Portable vaporizer"
+    },
+    "slug": "vaporizador-portatil",
+    "description": {
+      "es": "Vaporizador seco y concentrados.",
+      "ca": "Vaporitzador sec i concentrats.",
+      "en": "Dry herb and concentrate vaporizer."
+    },
+    "price": 79,
+    "images": [
+      "/productos/vaporizador-portatil.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Generic",
+    "stock": 10,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p25",
+    "name": {
+      "es": "Aceite CBD 5% 30ml",
+      "ca": "Oli CBD 5% 30ml",
+      "en": "CBD Oil 5% 30ml"
+    },
+    "slug": "aceite-cbd-5-30ml",
+    "description": {
+      "es": "Aceite CBD suave, ideal para empezar.",
+      "ca": "Oli CBD suau, ideal per començar.",
+      "en": "Mild CBD oil, ideal for beginners."
+    },
+    "price": 22.99,
+    "priceOffer": 19.99,
+    "images": [
+      "/productos/aceite-cbd.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 55,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p26",
+    "name": {
+      "es": "Kit iniciación cultivo interior",
+      "ca": "Kit iniciació cultiu interior",
+      "en": "Indoor grow starter kit"
+    },
+    "slug": "kit-iniciacion-cultivo",
+    "description": {
+      "es": "Armario, LED, extractor y temporizador.",
+      "ca": "Armari, LED, extractor i temporitzador.",
+      "en": "Tent, LED, fan and timer."
+    },
+    "price": 299,
+    "priceOffer": 269,
+    "images": [
+      "/productos/kit-iniciacion-cultivo-interior.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 8,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p27",
+    "name": {
+      "es": "Grinder metálico 4 partes",
+      "ca": "Grinder metàl·lic 4 parts",
+      "en": "4-part metal grinder"
+    },
+    "slug": "grinder-metalico",
+    "description": {
+      "es": "Triturador metálico con recogedor de kief.",
+      "ca": "Triturador metàl·lic amb recollidor de kief.",
+      "en": "Metal grinder with kief catcher."
+    },
+    "price": 18.5,
+    "images": [
+      "/productos/grinder-4-partes.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Generic",
+    "stock": 45,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p28",
+    "name": {
+      "es": "Bong cristal 30cm",
+      "ca": "Bong cristall 30cm",
+      "en": "30cm glass bong"
+    },
+    "slug": "bong-cristal-30",
+    "description": {
+      "es": "Bong de cristal con difusor.",
+      "ca": "Bong de cristall amb difusor.",
+      "en": "Glass bong with diffuser."
+    },
+    "price": 42,
+    "images": [
+      "/productos/bong-cristal.jpg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Generic",
+    "stock": 20,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p29",
+    "name": {
+      "es": "Resina CBD 1g",
+      "ca": "Resina CBD 1g",
+      "en": "CBD resin 1g"
+    },
+    "slug": "resina-cbd-1g",
+    "description": {
+      "es": "Extracto de CBD en formato resina.",
+      "ca": "Extracte de CBD en format resina.",
+      "en": "CBD extract in resin form."
+    },
+    "price": 29.99,
+    "images": [
+      "/productos/resina-cbd-1g.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 25,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p30",
+    "name": {
+      "es": "Temporizador digital 24h",
+      "ca": "Temporitzador digital 24h",
+      "en": "24h digital timer"
+    },
+    "slug": "temporizador-digital",
+    "description": {
+      "es": "Programación día/noche para cultivo.",
+      "ca": "Programació dia/nit per a cultiu.",
+      "en": "Day/night programming for growing."
+    },
+    "price": 14.99,
+    "images": [
+      "/productos/temporizador-digital.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p31",
+    "name": {
+      "es": "Semillas Auto Skunk XXL",
+      "ca": "Llavors Auto Skunk XXL",
+      "en": "Auto Skunk XXL Seeds"
+    },
+    "slug": "semillas-auto-skunk",
+    "description": {
+      "es": "Cosechas increíbles y potencia descomunal en tiempo récord.",
+      "ca": "Collites increïbles i potència descomunal en temps rècord.",
+      "en": "Incredible harvests and tremendous potency in record time."
+    },
+    "price": 3.50,
+    "images": [
+      "/productos/semillas-amnesia.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "GB Seeds",
+    "stock": 100,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p32",
+    "name": {
+      "es": "Semillas Critical",
+      "ca": "Llavors Critical",
+      "en": "Critical Seeds"
+    },
+    "slug": "semillas-critical",
+    "description": {
+      "es": "Famosa por su rápida floración y gran producción.",
+      "ca": "Famosa per la seva ràpida floració i gran producció.",
+      "en": "Famous for its fast flowering and high yield."
+    },
+    "price": 3.00,
+    "images": [
+      "/productos/semillas-amnesia.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "GB Seeds",
+    "stock": 150,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p33",
+    "name": {
+      "es": "Semillas Gary Payton",
+      "ca": "Llavors Gary Payton",
+      "en": "Gary Payton Seeds"
+    },
+    "slug": "semillas-gary-payton",
+    "description": {
+      "es": "Variedad americana de alta potencia y aroma complejo.",
+      "ca": "Varietat americana d'alta potència i aroma complex.",
+      "en": "American high-potency variety with complex aroma."
+    },
+    "price": 4.50,
+    "images": [
+      "/productos/semillas-amnesia.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Granel",
+    "stock": 80,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p34",
+    "name": {
+      "es": "Flores CBD Los Santos Kush",
+      "ca": "Flors CBD Los Santos Kush",
+      "en": "CBD Flowers Los Santos Kush"
+    },
+    "slug": "flores-cbd-santos",
+    "description": {
+      "es": "Flores de cannabis light con perfil terroso y cítrico.",
+      "ca": "Flors de cànnabis light amb perfil terrós i cítric.",
+      "en": "Light cannabis flowers with earthy and citrus profile."
+    },
+    "price": 49.97,
+    "priceOffer": 45.00,
+    "images": [
+      "/productos/flores-cbd-5g.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "GB Green Brand",
+    "stock": 15,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p35",
+    "name": {
+      "es": "Pop Buds CBD Black Caramel",
+      "ca": "Pop Buds CBD Black Caramel",
+      "en": "CBD Pop Buds Black Caramel"
+    },
+    "slug": "pop-buds-cbd",
+    "description": {
+      "es": "Cogollos pequeños premium con aroma dulce e intenso.",
+      "ca": "Cogollos petits premium amb aroma dolça i intensa.",
+      "en": "Premium small buds with sweet and intense aroma."
+    },
+    "price": 16.00,
+    "images": [
+      "/productos/flores-cbd-5g.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "GB Green Brand",
+    "stock": 50,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p36",
+    "name": {
+      "es": "Hash Dry Sift CBD",
+      "ca": "Hash Dry Sift CBD",
+      "en": "CBD Dry Sift Hash"
+    },
+    "slug": "hash-dry-sift",
+    "description": {
+      "es": "Resina de CBD de alta pureza extraída mediante cribado.",
+      "ca": "Resina de CBD d'alta puresa extreta mitjançant cribat.",
+      "en": "High purity CBD resin extracted by dry sifting."
+    },
+    "price": 9.90,
+    "priceOffer": 8.50,
+    "images": [
+      "/productos/resina-cbd-1g.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "GB Green Brand",
+    "stock": 25,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p37",
+    "name": {
+      "es": "Sistema LED 720W PRO MAX",
+      "ca": "Sistema LED 720W PRO MAX",
+      "en": "720W PRO MAX LED System"
+    },
+    "slug": "led-720w-pro",
+    "description": {
+      "es": "Sistema de iluminación LED de alto rendimiento profesional.",
+      "ca": "Sistema d'il·luminació LED d'alt rendiment professional.",
+      "en": "Professional high-performance LED lighting system."
+    },
+    "price": 190.00,
+    "images": [
+      "/productos/led-600w-full-spectrum.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "GB Lighting",
+    "stock": 5,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p38",
+    "name": {
+      "es": "Grinder Aluminio 4 Partes 40mm",
+      "ca": "Grinder Alumini 4 Parts 40mm",
+      "en": "40mm 4-Part Aluminum Grinder"
+    },
+    "slug": "grinder-aluminio-40mm",
+    "description": {
+      "es": "Grinder resistente con polinizador integrado y cierre magnético.",
+      "ca": "Grinder resistent amb pol·linitzador integrat i tancament magnètic.",
+      "en": "Durable grinder with integrated pollen catcher and magnetic closure."
+    },
+    "price": 7.50,
+    "images": [
+      "/productos/grinder-4-partes.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "GB Green Brand",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p39",
+    "name": {
+      "es": "Magnum Mouth Wash",
+      "ca": "Magnum Mouth Wash",
+      "en": "Magnum Mouth Wash"
+    },
+    "slug": "magnum-mouth-wash",
+    "description": {
+      "es": "Limpiador de toxinas bucal eficaz durante 45 minutos.",
+      "ca": "Netejador de toxines bucal eficaç durant 45 minuts.",
+      "en": "Effective oral toxin cleaner for 45 minutes."
+    },
+    "price": 24.90,
+    "images": [
+      "/productos/grinder-4-partes.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Magnum",
+    "stock": 12,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p40",
+    "name": {
+      "es": "Semillas Orange Bud",
+      "ca": "Llavors Orange Bud",
+      "en": "Orange Bud Seeds"
+    },
+    "slug": "semillas-orange-bud",
+    "description": {
+      "es": "Variedad clásica con aroma cítrico intenso.",
+      "ca": "Varietat clàssica amb aroma cítric intens.",
+      "en": "Classic variety with intense citrus aroma."
+    },
+    "price": 3.20,
+    "images": [
+      "/productos/semillas-amnesia.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "GB Seeds",
+    "stock": 120,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p41",
+    "name": {
+      "es": "Papel Smoking Blue",
+      "ca": "Paper Smoking Blue",
+      "en": "Smoking Blue Papers"
+    },
+    "slug": "papel-smoking-blue",
+    "description": {
+      "es": "Papel de liar clásico, 50 hojas por librito.",
+      "ca": "Paper de liar clàssic, 50 fulles per llibret.",
+      "en": "Classic rolling paper, 50 leaves per booklet."
+    },
+    "price": 1.20,
+    "images": [
+      "/productos/papel-ocb-premium-1.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Smoking",
+    "stock": 300,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p42",
+    "name": {
+      "es": "Papel Smoking Brown",
+      "ca": "Paper Smoking Brown",
+      "en": "Smoking Brown Papers"
+    },
+    "slug": "papel-smoking-brown",
+    "description": {
+      "es": "Papel marrón sin blanquear, combustión lenta.",
+      "ca": "Paper marró sense blanquejar, combustió lenta.",
+      "en": "Unbleached brown paper, slow burn."
+    },
+    "price": 1.30,
+    "images": [
+      "/productos/papel-ocb-premium-1.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Smoking",
+    "stock": 250,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p43",
+    "name": {
+      "es": "Conos King Size RAW 3u",
+      "ca": "Cons King Size RAW 3u",
+      "en": "RAW King Size Cones 3pk"
+    },
+    "slug": "conos-king-raw-3",
+    "description": {
+      "es": "Conos pre-enrollados tamaño king, pack de 3.",
+      "ca": "Cons pre-enrotllats mida king, pack de 3.",
+      "en": "Pre-rolled king size cones, pack of 3."
+    },
+    "price": 2.50,
+    "images": [
+      "/productos/conos-raw-32u.jpg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 180,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p44",
+    "name": {
+      "es": "Boquillas OCB Slim",
+      "ca": "Boques OCB Slim",
+      "en": "OCB Slim Tips"
+    },
+    "slug": "boquillas-ocb-slim",
+    "description": {
+      "es": "Filtros de cartón slim, 120 unidades.",
+      "ca": "Filtres de cartó slim, 120 unitats.",
+      "en": "Slim cardboard tips, 120 units."
+    },
+    "price": 2.80,
+    "images": [
+      "/productos/filtros-raw.jpeg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "OCB",
+    "stock": 150,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p45",
+    "name": {
+      "es": "Bandeja Metal RAW 18x14cm",
+      "ca": "Safata Metall RAW 18x14cm",
+      "en": "RAW Metal Tray 18x14cm"
+    },
+    "slug": "bandeja-metal-raw-small",
+    "description": {
+      "es": "Bandeja metálica pequeña con bordes elevados.",
+      "ca": "Safata metàl·lica petita amb vores elevades.",
+      "en": "Small metal tray with raised edges."
+    },
+    "price": 8.50,
+    "images": [
+      "/productos/bandeja-madera-raw.jpeg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 60,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p46",
+    "name": {
+      "es": "Bandeja Metal RAW 27x16cm",
+      "ca": "Safata Metall RAW 27x16cm",
+      "en": "RAW Metal Tray 27x16cm"
+    },
+    "slug": "bandeja-metal-raw-medium",
+    "description": {
+      "es": "Bandeja metálica mediana, ideal para grupos.",
+      "ca": "Safata metàl·lica mitjana, ideal per a grups.",
+      "en": "Medium metal tray, ideal for groups."
+    },
+    "price": 12.00,
+    "images": [
+      "/productos/bandeja-madera-raw.jpeg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 45,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p47",
+    "name": {
+      "es": "Cenicero RAW Metálico",
+      "ca": "Cendrer RAW Metàl·lic",
+      "en": "RAW Metal Ashtray"
+    },
+    "slug": "cenicero-raw-metal",
+    "description": {
+      "es": "Cenicero resistente con ranuras para cigarros.",
+      "ca": "Cendrer resistent amb ranures per a cigars.",
+      "en": "Durable ashtray with cigar slots."
+    },
+    "price": 15.00,
+    "images": [
+      "/productos/bandeja-madera-raw.jpeg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "RAW",
+    "stock": 30,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p48",
+    "name": {
+      "es": "Clipper Lighter Mini",
+      "ca": "Clipper Lighter Mini",
+      "en": "Clipper Mini Lighter"
+    },
+    "slug": "clipper-mini",
+    "description": {
+      "es": "Mechero Clipper mini recargable, colores variados.",
+      "ca": "Mecó Clipper mini recarregable, colors variats.",
+      "en": "Rechargeable Clipper mini lighter, assorted colors."
+    },
+    "price": 2.50,
+    "images": [
+      "/productos/mechero-clipper.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Clipper",
+    "stock": 200,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p49",
+    "name": {
+      "es": "Clipper Lighter Large",
+      "ca": "Clipper Lighter Large",
+      "en": "Clipper Large Lighter"
+    },
+    "slug": "clipper-large",
+    "description": {
+      "es": "Mechero Clipper grande recargable, diseños exclusivos.",
+      "ca": "Mecó Clipper gran recarregable, dissenys exclusius.",
+      "en": "Rechargeable large Clipper lighter, exclusive designs."
+    },
+    "price": 3.50,
+    "images": [
+      "/productos/mechero-clipper.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Clipper",
+    "stock": 150,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p50",
+    "name": {
+      "es": "Bong Acrílico 25cm",
+      "ca": "Bong Acrílic 25cm",
+      "en": "25cm Acrylic Bong"
+    },
+    "slug": "bong-acrilico-25",
+    "description": {
+      "es": "Bong de acrílico resistente, ideal para principiantes.",
+      "ca": "Bong d'acrílic resistent, ideal per a principiants.",
+      "en": "Durable acrylic bong, ideal for beginners."
+    },
+    "price": 18.00,
+    "images": [
+      "/productos/bong-cristal.jpg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Generic",
+    "stock": 35,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p51",
+    "name": {
+      "es": "Bong Cristal 40cm Percolador",
+      "ca": "Bong Cristall 40cm Percolador",
+      "en": "40cm Glass Bong with Percolator"
+    },
+    "slug": "bong-cristal-40-percolador",
+    "description": {
+      "es": "Bong de cristal con percolador para filtrado superior.",
+      "ca": "Bong de cristall amb percolador per a filtrat superior.",
+      "en": "Glass bong with percolator for superior filtration."
+    },
+    "price": 65.00,
+    "images": [
+      "/productos/bong-cristal.jpg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Generic",
+    "stock": 12,
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": "p52",
+    "name": {
+      "es": "Pipa Cristal Pequeña",
+      "ca": "Pipa Cristall Petita",
+      "en": "Small Glass Pipe"
+    },
+    "slug": "pipa-cristal-pequena",
+    "description": {
+      "es": "Pipa de cristal compacta y portátil.",
+      "ca": "Pipa de cristall compacta i portàtil.",
+      "en": "Compact and portable glass pipe."
+    },
+    "price": 12.00,
+    "images": [
+      "/productos/bong-cristal.jpg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Generic",
+    "stock": 50,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p53",
+    "name": {
+      "es": "Pipa Madera Tallada",
+      "ca": "Pipa Fusta Tallada",
+      "en": "Carved Wood Pipe"
+    },
+    "slug": "pipa-madera-tallada",
+    "description": {
+      "es": "Pipa artesanal de madera tallada a mano.",
+      "ca": "Pipa artesanal de fusta tallada a mà.",
+      "en": "Handcrafted carved wood pipe."
+    },
+    "price": 22.00,
+    "images": [
+      "/productos/bandeja-madera-raw.jpeg"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Generic",
+    "stock": 25,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p54",
+    "name": {
+      "es": "Vaporizador Mighty+",
+      "ca": "Vaporitzador Mighty+",
+      "en": "Mighty+ Vaporizer"
+    },
+    "slug": "vaporizador-mighty-plus",
+    "description": {
+      "es": "Vaporizador portátil de alta gama con control de temperatura.",
+      "ca": "Vaporitzador portàtil d'alta gamma amb control de temperatura.",
+      "en": "High-end portable vaporizer with temperature control."
+    },
+    "price": 349.00,
+    "images": [
+      "/productos/vaporizador-portatil.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Storz & Bickel",
+    "stock": 5,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p55",
+    "name": {
+      "es": "Vaporizador Crafty+",
+      "ca": "Vaporitzador Crafty+",
+      "en": "Crafty+ Vaporizer"
+    },
+    "slug": "vaporizador-crafty-plus",
+    "description": {
+      "es": "Vaporizador compacto con app móvil.",
+      "ca": "Vaporitzador compacte amb app mòbil.",
+      "en": "Compact vaporizer with mobile app."
+    },
+    "price": 279.00,
+    "images": [
+      "/productos/vaporizador-portatil.webp"
+    ],
+    "categoryId": "parafernalia",
+    "brand": "Storz & Bickel",
+    "stock": 8,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p56",
+    "name": {
+      "es": "Grinder Madera 2 Partes",
+      "ca": "Grinder Fusta 2 Parts",
+      "en": "2-Part Wood Grinder"
+    },
+    "slug": "grinder-madera-2",
+    "description": {
+      "es": "Grinder de madera natural, diseño clásico.",
+      "ca": "Grinder de fusta natural, disseny clàssic.",
+      "en": "Natural wood grinder, classic design."
+    },
+    "price": 12.00,
+    "images": [
+      "/productos/grinder-4-partes.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Generic",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p57",
+    "name": {
+      "es": "Grinder Plástico Colores",
+      "ca": "Grinder Plàstic Colors",
+      "en": "Colorful Plastic Grinder"
+    },
+    "slug": "grinder-plastico-colores",
+    "description": {
+      "es": "Grinder de plástico económico, varios colores.",
+      "ca": "Grinder de plàstic econòmic, diversos colors.",
+      "en": "Budget plastic grinder, various colors."
+    },
+    "price": 3.50,
+    "images": [
+      "/productos/grinder-4-partes.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Generic",
+    "stock": 100,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p58",
+    "name": {
+      "es": "Báscula Digital 0.01g",
+      "ca": "Bàscula Digital 0.01g",
+      "en": "0.01g Digital Scale"
+    },
+    "slug": "bascula-digital-001",
+    "description": {
+      "es": "Báscula de precisión para pesaje exacto.",
+      "ca": "Bàscula de precisió per a pesatge exacte.",
+      "en": "Precision scale for exact weighing."
+    },
+    "price": 18.00,
+    "images": [
+      "/productos/temporizador-digital.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Generic",
+    "stock": 35,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p59",
+    "name": {
+      "es": "Báscula Digital 0.1g 500g",
+      "ca": "Bàscula Digital 0.1g 500g",
+      "en": "0.1g 500g Digital Scale"
+    },
+    "slug": "bascula-digital-01-500",
+    "description": {
+      "es": "Báscula de bolsillo con capacidad de 500g.",
+      "ca": "Bàscula de butxaca amb capacitat de 500g.",
+      "en": "Pocket scale with 500g capacity."
+    },
+    "price": 12.00,
+    "images": [
+      "/productos/temporizador-digital.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Generic",
+    "stock": 45,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p60",
+    "name": {
+      "es": "Lupa LED 30x 60x",
+      "ca": "Lupa LED 30x 60x",
+      "en": "30x 60x LED Magnifier"
+    },
+    "slug": "lupa-led-30x-60x",
+    "description": {
+      "es": "Lupa con iluminación LED para inspección de tricomas.",
+      "ca": "Lupa amb il·luminació LED per a inspecció de tricomes.",
+      "en": "LED magnifier for trichome inspection."
+    },
+    "price": 8.50,
+    "images": [
+      "/productos/temporizador-digital.jpg"
+    ],
+    "categoryId": "accesorios",
+    "brand": "Generic",
+    "stock": 50,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p61",
+    "name": {
+      "es": "Aceite CBD 20% 10ml",
+      "ca": "Oli CBD 20% 10ml",
+      "en": "CBD Oil 20% 10ml"
+    },
+    "slug": "aceite-cbd-20",
+    "description": {
+      "es": "Aceite de CBD de alta concentración para uso avanzado.",
+      "ca": "Oli de CBD d'alta concentració per a ús avançat.",
+      "en": "High concentration CBD oil for advanced use."
+    },
+    "price": 59.99,
+    "priceOffer": 54.99,
+    "images": [
+      "/productos/aceite-cbd.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 30,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p62",
+    "name": {
+      "es": "Aceite CBD 15% 30ml",
+      "ca": "Oli CBD 15% 30ml",
+      "en": "CBD Oil 15% 30ml"
+    },
+    "slug": "aceite-cbd-15-30ml",
+    "description": {
+      "es": "Aceite CBD concentración media, formato económico.",
+      "ca": "Oli CBD concentració mitjana, format econòmic.",
+      "en": "Medium concentration CBD oil, economical format."
+    },
+    "price": 44.99,
+    "images": [
+      "/productos/aceite-cbd.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p63",
+    "name": {
+      "es": "Flores CBD Gorilla Glue 3g",
+      "ca": "Flors CBD Gorilla Glue 3g",
+      "en": "CBD Flowers Gorilla Glue 3g"
+    },
+    "slug": "flores-cbd-gorilla-3g",
+    "description": {
+      "es": "Cogollos premium de la variedad Gorilla Glue.",
+      "ca": "Cogollos premium de la varietat Gorilla Glue.",
+      "en": "Premium Gorilla Glue variety buds."
+    },
+    "price": 18.00,
+    "images": [
+      "/productos/flores-cbd-5g.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "GB Green Brand",
+    "stock": 35,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p64",
+    "name": {
+      "es": "Flores CBD Lemon Haze 5g",
+      "ca": "Flors CBD Lemon Haze 5g",
+      "en": "CBD Flowers Lemon Haze 5g"
+    },
+    "slug": "flores-cbd-lemon-5g",
+    "description": {
+      "es": "Cogollos con aroma cítrico intenso y refrescante.",
+      "ca": "Cogollos amb aroma cítric intens i refrescant.",
+      "en": "Buds with intense and refreshing citrus aroma."
+    },
+    "price": 32.00,
+    "images": [
+      "/productos/flores-cbd-5g.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "GB Green Brand",
+    "stock": 28,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p65",
+    "name": {
+      "es": "Crema CBD Articulaciones 50ml",
+      "ca": "Crema CBD Articulacions 50ml",
+      "en": "CBD Joint Cream 50ml"
+    },
+    "slug": "crema-cbd-articulaciones",
+    "description": {
+      "es": "Crema específica para alivio de articulaciones.",
+      "ca": "Crema específica per a alleujament d'articulacions.",
+      "en": "Specific cream for joint relief."
+    },
+    "price": 29.99,
+    "images": [
+      "/productos/crema-cbd.jpg"
+    ],
+    "categoryId": "cbd",
+    "brand": "Generic",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p66",
+    "name": {
+      "es": "Bálsamo Labial CBD",
+      "ca": "Bàlsam Labial CBD",
+      "en": "CBD Lip Balm"
+    },
+    "slug": "balsamo-labial-cbd",
+    "description": {
+      "es": "Bálsamo labial hidratante con CBD.",
+      "ca": "Bàlsam labial hidratant amb CBD.",
+      "en": "Moisturizing lip balm with CBD."
+    },
+    "price": 6.99,
+    "images": [
+      "/productos/crema-cbd.jpg"
+    ],
+    "categoryId": "cbd",
+    "brand": "Generic",
+    "stock": 80,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p67",
+    "name": {
+      "es": "Cápsulas CBD 25mg x30",
+      "ca": "Càpsules CBD 25mg x30",
+      "en": "CBD Capsules 25mg x30"
+    },
+    "slug": "capsulas-cbd-25mg",
+    "description": {
+      "es": "Cápsulas de CBD para dosificación precisa.",
+      "ca": "Càpsules de CBD per a dosificació precisa.",
+      "en": "CBD capsules for precise dosing."
+    },
+    "price": 34.99,
+    "images": [
+      "/productos/gominolas-cbd.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 50,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p68",
+    "name": {
+      "es": "E-Liquid CBD 300mg",
+      "ca": "E-Liquid CBD 300mg",
+      "en": "CBD E-Liquid 300mg"
+    },
+    "slug": "eliquid-cbd-300mg",
+    "description": {
+      "es": "Líquido para vapear con CBD, varios sabores.",
+      "ca": "Líquid per a vapejar amb CBD, diversos sabors.",
+      "en": "CBD vaping liquid, various flavors."
+    },
+    "price": 24.99,
+    "images": [
+      "/productos/aceite-cbd.webp"
+    ],
+    "categoryId": "cbd",
+    "brand": "Generic",
+    "stock": 35,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p69",
+    "name": {
+      "es": "Cristales CBD 99% 1g",
+      "ca": "Cristalls CBD 99% 1g",
+      "en": "CBD Crystals 99% 1g"
+    },
+    "slug": "cristales-cbd-99",
+    "description": {
+      "es": "Cristales de CBD puro al 99%, máxima pureza.",
+      "ca": "Cristalls de CBD pur al 99%, màxima puresa.",
+      "en": "99% pure CBD crystals, maximum purity."
+    },
+    "price": 39.99,
+    "images": [
+      "/productos/resina-cbd-1g.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 20,
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": "p70",
+    "name": {
+      "es": "Té CBD Relajante 20 bolsitas",
+      "ca": "Te CBD Relaxant 20 bossetes",
+      "en": "CBD Relaxing Tea 20 bags"
+    },
+    "slug": "te-cbd-relajante",
+    "description": {
+      "es": "Infusión de hierbas con CBD para relajación.",
+      "ca": "Infusió d'herbes amb CBD per a relaxació.",
+      "en": "Herbal tea with CBD for relaxation."
+    },
+    "price": 12.99,
+    "images": [
+      "/productos/gominolas-cbd.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "Generic",
+    "stock": 60,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p71",
+    "name": {
+      "es": "Miel CBD 250g",
+      "ca": "Mel CBD 250g",
+      "en": "CBD Honey 250g"
+    },
+    "slug": "miel-cbd-250g",
+    "description": {
+      "es": "Miel natural infusionada con CBD.",
+      "ca": "Mel natural infusionada amb CBD.",
+      "en": "Natural honey infused with CBD."
+    },
+    "price": 19.99,
+    "images": [
+      "/productos/gominolas-cbd.jpeg"
+    ],
+    "categoryId": "cbd",
+    "brand": "El Oro Verde",
+    "stock": 30,
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": "p72",
+    "name": {
+      "es": "Fertilizante Enraizamiento 250ml",
+      "ca": "Fertilitzant Arrelament 250ml",
+      "en": "Rooting Fertilizer 250ml"
+    },
+    "slug": "fertilizante-enraizamiento",
+    "description": {
+      "es": "Estimulador de raíces para esquejes y plántulas.",
+      "ca": "Estimulador d'arrels per a esqueixos i plàntules.",
+      "en": "Root stimulator for cuttings and seedlings."
+    },
+    "price": 9.99,
+    "images": [
+      "/productos/fertilizante-crecimiento-flower-1-l.webp"
+    ],
+    "categoryId": "cultivo",
+    "brand": "BioBizz",
+    "stock": 65,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p73",
+    "name": {
+      "es": "Fertilizante Top Max 1L",
+      "ca": "Fertilitzant Top Max 1L",
+      "en": "Top Max Fertilizer 1L"
+    },
+    "slug": "fertilizante-top-max",
+    "description": {
+      "es": "Potenciador de floración orgánico.",
+      "ca": "Potenciador de floració orgànic.",
+      "en": "Organic flowering booster."
+    },
+    "price": 18.50,
+    "images": [
+      "/productos/fertilizante-floracion-1l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "BioBizz",
+    "stock": 45,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p74",
+    "name": {
+      "es": "Sustrato Light Mix 20L",
+      "ca": "Substrat Light Mix 20L",
+      "en": "Light Mix Substrate 20L"
+    },
+    "slug": "sustrato-light-mix-20l",
+    "description": {
+      "es": "Sustrato ligero ideal para plántulas.",
+      "ca": "Substrat lleuger ideal per a plàntules.",
+      "en": "Light substrate ideal for seedlings."
+    },
+    "price": 12.00,
+    "images": [
+      "/productos/sustrato-50l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "BioBizz",
+    "stock": 50,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p75",
+    "name": {
+      "es": "Sustrato All Mix 50L",
+      "ca": "Substrat All Mix 50L",
+      "en": "All Mix Substrate 50L"
+    },
+    "slug": "sustrato-all-mix-50l",
+    "description": {
+      "es": "Sustrato completo pre-fertilizado.",
+      "ca": "Substrat complet pre-fertilitzat.",
+      "en": "Complete pre-fertilized substrate."
+    },
+    "price": 28.00,
+    "images": [
+      "/productos/sustrato-50l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "BioBizz",
+    "stock": 35,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p76",
+    "name": {
+      "es": "Fibra de Coco 50L",
+      "ca": "Fibra de Coco 50L",
+      "en": "Coco Fiber 50L"
+    },
+    "slug": "fibra-coco-50l",
+    "description": {
+      "es": "Sustrato de fibra de coco prensado.",
+      "ca": "Substrat de fibra de coco premsat.",
+      "en": "Pressed coconut fiber substrate."
+    },
+    "price": 15.00,
+    "images": [
+      "/productos/sustrato-50l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p77",
+    "name": {
+      "es": "Perlita 10L",
+      "ca": "Perlita 10L",
+      "en": "Perlite 10L"
+    },
+    "slug": "perlita-10l",
+    "description": {
+      "es": "Perlita para mejorar drenaje y aireación.",
+      "ca": "Perlita per a millorar drenatge i aireació.",
+      "en": "Perlite to improve drainage and aeration."
+    },
+    "price": 6.50,
+    "images": [
+      "/productos/sustrato-50l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 70,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p78",
+    "name": {
+      "es": "Vermiculita 10L",
+      "ca": "Vermiculita 10L",
+      "en": "Vermiculite 10L"
+    },
+    "slug": "vermiculita-10l",
+    "description": {
+      "es": "Vermiculita para retención de humedad.",
+      "ca": "Vermiculita per a retenció d'humitat.",
+      "en": "Vermiculite for moisture retention."
+    },
+    "price": 7.00,
+    "images": [
+      "/productos/sustrato-50l.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 60,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p79",
+    "name": {
+      "es": "Medidor pH Digital",
+      "ca": "Mesurador pH Digital",
+      "en": "Digital pH Meter"
+    },
+    "slug": "medidor-ph-digital",
+    "description": {
+      "es": "Medidor de pH digital para control de nutrientes.",
+      "ca": "Mesurador de pH digital per a control de nutrients.",
+      "en": "Digital pH meter for nutrient control."
+    },
+    "price": 24.99,
+    "images": [
+      "/productos/temporizador-digital.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 30,
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": "p80",
+    "name": {
+      "es": "Termohigrómetro Digital",
+      "ca": "Termohigròmetre Digital",
+      "en": "Digital Thermohygrometer"
+    },
+    "slug": "termohigrometro-digital",
+    "description": {
+      "es": "Control de temperatura y humedad con sonda.",
+      "ca": "Control de temperatura i humitat amb sonda.",
+      "en": "Temperature and humidity control with probe."
+    },
+    "price": 16.99,
+    "images": [
+      "/productos/temporizador-digital.jpg"
+    ],
+    "categoryId": "cultivo",
+    "brand": "Generic",
+    "stock": 40,
+    "featured": false,
+    "new": false
+  }
+]
