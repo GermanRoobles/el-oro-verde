@@ -50,8 +50,9 @@ export default function StarRating({
                 >
                     <svg
                         className={`${sizeClasses[size]} ${star <= displayRating
-                                ? 'fill-yellow-400 text-yellow-400'
-                                : 'fill-none text-gray-300 dark:text-gray-600'
+                            ? 'fill-yellow-400 text-yellow-400'
+                            : 'fill-none text-[var(--border)]'
+
                             } transition-colors`}
                         stroke="currentColor"
                         strokeWidth={1.5}

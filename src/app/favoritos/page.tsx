@@ -112,7 +112,7 @@ export default function FavoritosPage() {
                             <button
                                 type="button"
                                 onClick={() => removeItem(product.id)}
-                                className="absolute right-2 top-2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 text-red-500 shadow-lg backdrop-blur-sm transition hover:bg-white hover:scale-110 dark:bg-gray-900/90 dark:hover:bg-gray-900"
+                                className="absolute right-2 top-2 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-[var(--surface)]/90 text-red-500 shadow-lg backdrop-blur-sm transition hover:bg-[var(--surface)] hover:scale-110"
                                 aria-label="Eliminar de favoritos"
                             >
                                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">

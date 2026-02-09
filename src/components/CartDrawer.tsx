@@ -75,7 +75,8 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                     <button
                       type="button"
                       onClick={() => updateQuantity(item.productId, Math.max(0, item.quantity - 1))}
-                      className="flex h-8 w-8 items-center justify-center rounded-lg border border-[var(--border)] text-[var(--foreground)] transition hover:bg-[var(--accent-light)]"
+                      className="flex h-8 w-8 items-center justify-center rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--foreground)] transition hover:bg-[var(--accent-light)] hover:border-[var(--accent)] dark:hover:text-green-400"
+
                       aria-label="Menos"
                     >
                       −
@@ -84,7 +85,8 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                     <button
                       type="button"
                       onClick={() => updateQuantity(item.productId, item.quantity + 1)}
-                      className="flex h-8 w-8 items-center justify-center rounded-lg border border-[var(--border)] text-[var(--foreground)] transition hover:bg-[var(--accent-light)]"
+                      className="flex h-8 w-8 items-center justify-center rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--foreground)] transition hover:bg-[var(--accent-light)] hover:border-[var(--accent)] dark:hover:text-green-400"
+
                       aria-label="Más"
                     >
                       +
@@ -93,7 +95,9 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                   <button
                     type="button"
                     onClick={() => removeItem(item.productId)}
-                    className="rounded-lg p-1.5 text-[var(--muted)] transition hover:bg-red-100 hover:text-red-600"
+                    onClick={() => removeItem(item.productId)}
+                    className="rounded-lg p-1.5 text-[var(--muted)] transition hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-900/20 dark:hover:text-red-400"
+
                     aria-label="Quitar"
                   >
                     <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

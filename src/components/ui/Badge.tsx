@@ -17,11 +17,13 @@ export default function Badge({
 
     // Refined variants with neutral backgrounds and subtle borders
     const variants = {
-        sale: 'bg-neutral-100 text-neutral-700 border border-neutral-300',
+        sale: 'bg-[var(--sale-red)]/10 text-[var(--sale-red)] border border-[var(--sale-red)]/20',
+
         new: 'bg-amber-50 text-amber-700 border border-amber-200',
         featured: 'bg-green-50 text-green-700 border border-green-200',
         stock: 'bg-green-50 text-green-700 border border-green-200',
-        default: 'bg-neutral-100 text-neutral-600 border border-neutral-200',
+        default: 'bg-[var(--surface)] text-[var(--muted)] border border-[var(--border)]',
+
     };
 
     // Refined sizes - smaller and more discreet

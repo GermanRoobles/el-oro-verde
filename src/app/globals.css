@@ -1,10 +1,11 @@
-/* Google Fonts - Montserrat & Inter for Premium Typography */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+/* Google Fonts - Montserrat, Inter & JetBrains Mono for Organic Tech */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
 
 @import "tailwindcss";
 
 :root {
-  /* Professional Neutrals - Monochromatic Base */
+  /* Organic Tech Palette - Professional & Technical */
   --neutral-50: #FAFAFA;
   --neutral-100: #F5F5F5;
   --neutral-200: #E5E5E5;
@@ -15,77 +16,80 @@
   --neutral-700: #404040;
   --neutral-800: #262626;
   --neutral-900: #171717;
+  --neutral-950: #0A0A0A;
+  /* Deep Black */
 
-  /* Base Colors - Clean & Professional */
+  /* Base Colors - Clean & Technical */
   --background: #FFFFFF;
-  --foreground: #171717;
-  --surface: #FFFFFF;
+  --foreground: #0A0A0A;
+  --surface: #FAFAFA;
   --muted: #737373;
   --muted-light: #A3A3A3;
 
-  /* Brand Green - Single Professional Accent */
-  --accent: #16A34A;
-  --accent-hover: #15803D;
-  --accent-light: #DCFCE7;
-  --accent-subtle: #F0FDF4;
-  --accent-pressed: #166534;
+  /* Tech Green - Neon/Vibrant Accent */
+  --accent: #00D668;
+  /* Vibrant Tech Green */
+  --accent-hover: #00B356;
+  --accent-light: #CFFFE8;
+  --accent-subtle: #EBFFF5;
+  --accent-pressed: #009146;
+  --accent-glow: rgba(0, 214, 104, 0.5);
 
-  /* Refined Status Colors - Muted & Professional */
-  --sale-red: #DC2626;
-  --sale-light: #FEE2E2;
-  --new-amber: #D97706;
+  /* Status Colors - High Contrast */
+  --sale-red: #E11D48;
+  --sale-light: #FFE4E6;
+  --new-amber: #F59E0B;
   --new-light: #FEF3C7;
-  --featured-gold: #CA8A04;
-  --featured-light: #FEF9C3;
-  --success: #16A34A;
+  --success: #00D668;
   --success-light: #DCFCE7;
-  --warning: #CA8A04;
-  --error: #DC2626;
-  --info: #2563EB;
+  --warning: #F59E0B;
+  --error: #E11D48;
+  --info: #3B82F6;
 
-  /* Layout - Clean & Spacious */
+  /* Layout - Precise & Industrial */
   --border: #E5E5E5;
+  --border-strong: #A3A3A3;
   --border-light: #F5F5F5;
-  --border-dark: #D4D4D4;
+  --radius-sm: 0.25rem;
   --radius: 0.5rem;
   --radius-lg: 0.75rem;
   --radius-xl: 1rem;
 
-  /* Animations - Smooth & Subtle */
-  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
-  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
-  --transition-base: 200ms var(--ease-out);
-
-  /* Shadows - Soft & Elegant */
-  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1);
-  --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.05), 0 1px 2px -1px rgb(0 0 0 / 0.04);
-  --shadow-card-hover: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  /* Animations - Snappy & Technical */
+  --ease-technical: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 150ms var(--ease-technical);
 
   /* Typography */
   --font-heading: 'Montserrat', ui-sans-serif, system-ui, sans-serif;
   --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
+
 .dark {
-  --background: #171717;
+  --background: #0A0A0A;
+  /* Deep Black */
   --foreground: #FAFAFA;
-  --surface: #262626;
+  --surface: #171717;
   --muted: #A3A3A3;
   --muted-light: #737373;
   --accent: #22C55E;
+  /* Slightly more muted for dark mode checks, or keep vibrant? */
+  --accent: #00D668;
   --accent-hover: #16A34A;
   --accent-light: #166534;
   --accent-subtle: #14532D;
-  --border: #404040;
-  --border-light: #525252;
-  --border-dark: #262626;
-  --shadow-card: 0 1px 3px 0 rgb(0 0 0 / 0.3);
-  --shadow-card-hover: 0 4px 6px -1px rgb(0 0 0 / 0.4);
+  --accent-glow: rgba(0, 214, 104, 0.3);
+  --border: #262626;
+  --border-strong: #404040;
+  --border-light: #1F1F1F;
+  --border-dark: #0A0A0A;
+  --shadow-card: 0 1px 0 0 var(--border);
+  /* Brutalist border-shadow */
+  --shadow-card-hover: 0 0 0 1px var(--accent);
+  /* Glow border on hover */
 }
+
 
 @theme inline {
   --color-background: var(--background);
@@ -94,7 +98,39 @@
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-mono);
 }
+
+/* Organic Tech Utilities */
+.font-mono-tech {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
+
+.text-tech-sm {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.border-tech {
+  border: 1px solid var(--border);
+}
+
+.border-tech-strong {
+  border: 1px solid var(--border-strong);
+}
+
+.glow-hover {
+  transition: box-shadow 0.2s var(--ease-technical);
+}
+
+.glow-hover:hover {
+  box-shadow: 0 0 15px var(--accent-glow);
+  border-color: var(--accent);
+}
+
 
 @keyframes fade-in {
   from {
@@ -209,6 +245,7 @@
   color: var(--muted);
 }
 
+
 .input-pro:focus {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
@@ -216,6 +253,17 @@
   box-shadow: 0 0 0 4px var(--accent-light);
   transition: all 0.2s ease;
 }
+
+/* Fix Autofill background in dark mode */
+.input-pro:-webkit-autofill,
+.input-pro:-webkit-autofill:hover,
+.input-pro:-webkit-autofill:focus,
+.input-pro:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px var(--surface) inset !important;
+  -webkit-text-fill-color: var(--foreground) !important;
+  caret-color: var(--foreground);
+}
+
 
 /* Enhanced focus for buttons */
 button:focus-visible,

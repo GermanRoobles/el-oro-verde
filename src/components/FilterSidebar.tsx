@@ -55,16 +55,16 @@ export default function FilterSidebar({
     ];
 
     return (
-        <aside className="sticky top-20 h-fit space-y-6 rounded-xl border border-neutral-200 bg-white p-5 shadow-sm dark:border-neutral-700 dark:bg-neutral-800">
+        <aside className="sticky top-20 h-fit space-y-6 rounded-xl border border-[var(--border)] bg-[var(--surface)] p-5 shadow-sm">
             {/* Header */}
             <div className="flex items-center justify-between">
-                <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-neutral-900 dark:text-neutral-100">
+                <h2 className="font-[family-name:var(--font-heading)] text-lg font-bold text-[var(--foreground)]">
                     Filtros
                 </h2>
                 {hasActiveFilters && (
                     <button
                         onClick={onClearAll}
-                        className="text-sm font-medium text-green-600 transition hover:text-green-700 hover:underline dark:text-green-400 dark:hover:text-green-300"
+                        className="text-sm font-medium text-[var(--accent)] transition hover:text-[var(--accent-hover)] hover:underline"
                     >
                         Limpiar
                     </button>

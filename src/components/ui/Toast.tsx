@@ -29,16 +29,18 @@ function ToastItem({ toast, onClose }: ToastProps) {
     }, [toast, onClose]);
 
     const typeStyles = {
-        success: 'bg-neutral-900 border-green-600',
-        error: 'bg-neutral-900 border-red-500',
-        info: 'bg-neutral-900 border-neutral-600',
-        warning: 'bg-neutral-900 border-amber-500',
+        success: 'bg-[var(--surface)] border-[var(--success)] text-[var(--foreground)]',
+        error: 'bg-[var(--surface)] border-[var(--error)] text-[var(--foreground)]',
+        info: 'bg-[var(--surface)] border-[var(--border)] text-[var(--foreground)]',
+        warning: 'bg-[var(--surface)] border-[var(--warning)] text-[var(--foreground)]',
+
     };
 
     const typeIconColors = {
         success: 'text-green-500',
         error: 'text-red-500',
-        info: 'text-neutral-400',
+        info: 'text-[var(--muted)]',
+
         warning: 'text-amber-500',
     };
 
@@ -84,7 +86,8 @@ function ToastItem({ toast, onClose }: ToastProps) {
                     setIsExiting(true);
                     setTimeout(() => onClose(toast.id), 300);
                 }}
-                className="shrink-0 rounded-full p-1 text-neutral-400 transition hover:bg-white/10 hover:text-white"
+                className="shrink-0 rounded-full p-1 text-[var(--muted)] transition hover:bg-[var(--foreground)]/10 hover:text-[var(--foreground)]"
+
                 aria-label="Cerrar"
             >
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

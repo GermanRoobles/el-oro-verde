@@ -116,13 +116,15 @@ export default function QuickViewModal() {
                 <button
                     type="button"
                     onClick={handleClose}
-                    className="absolute right-4 top-4 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-white/90 shadow-lg backdrop-blur-sm transition hover:scale-110 hover:bg-white"
+                    className="absolute right-4 top-4 z-20 flex h-10 w-10 items-center justify-center rounded-full bg-[var(--surface)]/90 text-[var(--foreground)] shadow-lg backdrop-blur-sm transition hover:scale-110 hover:bg-[var(--surface)] hover:text-[var(--accent)]"
+
                     aria-label="Cerrar"
                 >
                     <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
+
 
                 {/* Content */}
                 <div className="grid gap-6 p-6 md:grid-cols-2 md:p-8">
@@ -183,7 +185,8 @@ export default function QuickViewModal() {
                                             max={product.stock}
                                             value={quantity}
                                             onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value, 10) || 1))}
-                                            className="w-20 rounded-lg border border-[var(--border)] px-3 py-2 text-center focus:border-[var(--accent)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/20"
+                                            className="w-20 rounded-lg border border-[var(--border)] bg-[var(--background)] px-3 py-2 text-center text-[var(--foreground)] focus:border-[var(--accent)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/20"
+
                                         />
                                     </label>
                                 </div>
@@ -202,9 +205,10 @@ export default function QuickViewModal() {
                                     type="button"
                                     onClick={() => toggleWishlist(product)}
                                     className={`flex h-12 w-12 items-center justify-center rounded-xl border-2 transition ${isInWishlist
-                                            ? 'border-red-500 bg-red-500 text-white'
-                                            : 'border-[var(--border)] text-[var(--muted)] hover:border-red-500 hover:text-red-500'
+                                        ? 'border-red-500 bg-red-500 text-white'
+                                        : 'border-[var(--border)] text-[var(--muted)] hover:border-red-500 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/10'
                                         }`}
+
                                     aria-label={isInWishlist ? 'Eliminar de favoritos' : 'Añadir a favoritos'}
                                 >
                                     <svg className="h-6 w-6" fill={isInWishlist ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">

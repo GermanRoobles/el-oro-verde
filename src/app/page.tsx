@@ -9,6 +9,7 @@ import WishlistButton from '@/components/WishlistButton';
 import ProductCardSkeleton from '@/components/ProductCardSkeleton';
 import type { Product } from '@/types';
 import type { Locale } from '@/types';
+import HeroBento from '@/components/HeroBento';
 
 export default function HomePage() {
   const { t, locale } = useLocale();
@@ -37,11 +38,15 @@ export default function HomePage() {
   const ProductCard = ({ p, index = 0 }: { p: Product; index?: number }) => (
     <Link
       href={`/producto/${p.slug}`}
-      className="group relative animate-fade-in-up overflow-hidden rounded-xl border border-neutral-200 bg-white opacity-0 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800"
+      className="card group relative animate-fade-in-up overflow-hidden rounded-sm border border-[var(--border)] bg-[var(--surface)] opacity-0 transition-all duration-200 hover:-translate-y-1 hover:border-[var(--accent)] hover:shadow-[0_0_15px_rgba(34,197,94,0.15)]"
+
+
 
       style={{ animationDelay: `${index * 50}ms`, animationFillMode: 'forwards' }}
     >
-      <div className="relative aspect-square overflow-hidden bg-neutral-50 dark:bg-neutral-900/50">
+      <div className="relative aspect-square overflow-hidden bg-[var(--background)]">
+
+
 
         <Image
           src={imgSrc(p)}
@@ -56,17 +61,26 @@ export default function HomePage() {
         <WishlistButton productId={p.id} product={p} size="sm" />
       </div>
       <div className="p-4">
-        <p className="text-xs font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400">{p.brand}</p>
+        <div className="mb-1 flex items-center justify-between">
+          <p className="font-mono-tech text-[10px] font-bold uppercase tracking-wider text-green-600 dark:text-green-400">
+            [{p.brand}]
+          </p>
+        </div>
 
-        <h3 className="mt-1.5 font-semibold leading-snug text-neutral-900 transition-colors group-hover:text-green-600 dark:text-neutral-100 dark:group-hover:text-green-400">
+
+        <h3 className="mt-1.5 font-semibold leading-snug text-[var(--foreground)] transition-colors group-hover:text-[var(--accent)]">
+
 
           {name(p)}
         </h3>
         <p className="mt-2 flex items-baseline gap-2">
-          <span className="text-lg font-bold text-green-600 dark:text-green-400">{price(p)} €</span>
+          <span className="font-mono-tech text-lg font-bold text-[var(--foreground)]">{price(p)} €</span>
+
+
 
           {p.priceOffer != null && (
-            <span className="text-sm text-neutral-500 line-through">{p.price.toFixed(2)} €</span>
+            <span className="text-sm text-[var(--muted)] line-through">{p.price.toFixed(2)} €</span>
+
           )}
         </p>
       </div>
@@ -84,38 +98,8 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative min-h-[380px] overflow-hidden min-[400px]:min-h-[420px] sm:min-h-[480px] md:min-h-[520px]">
-        <div className="absolute inset-0">
-          <Image
-            src={heroBanner}
-            alt=""
-            fill
-            className="object-cover"
-            sizes="100vw"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-neutral-900/90 via-neutral-900/70 to-neutral-900/40" />
-        </div>
-        <div className="relative mx-auto flex min-h-[380px] max-w-6xl flex-col justify-center px-4 py-16 min-[400px]:min-h-[420px] sm:min-h-[480px] sm:px-5 sm:py-20 md:min-h-[520px] md:px-8">
-          <p className="animate-fade-in-up text-xs font-semibold uppercase tracking-[0.2em] text-white/80 opacity-0" style={{ animationFillMode: 'forwards' }}>
-            {t('site.tagline')}
-          </p>
-          <h1 className="animate-fade-in-up mt-3 text-3xl font-bold tracking-tight text-white opacity-0 min-[400px]:text-4xl md:text-5xl md:leading-tight lg:text-6xl lg:leading-tight" style={{ animationDelay: '60ms', animationFillMode: 'forwards' }}>
-            {t('home.hero')}
-          </h1>
-          <p className="animate-fade-in-up mt-4 max-w-lg text-base leading-relaxed text-white/85 opacity-0 md:text-lg" style={{ animationDelay: '100ms', animationFillMode: 'forwards' }}>
-            {t('home.sub')}
-          </p>
-          <Link
-            href="/tienda"
-            className="btn-primary animate-fade-in-up mt-8 inline-flex w-fit items-center gap-2 rounded-xl bg-green-600 px-8 py-3.5 font-semibold text-white opacity-0 shadow-lg transition-all duration-200 hover:bg-green-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
-            style={{ animationDelay: '140ms', animationFillMode: 'forwards' }}
-          >
-            {t('shop.all')}
-            <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-          </Link>
-        </div>
-      </section>
+      <HeroBento />
+
 
       {/* Banda promocional */}
       <div className="banner-strip">
@@ -184,7 +168,8 @@ export default function HomePage() {
       </section>
 
       {/* Banda de confianza */}
-      <section className="border-b border-neutral-200 bg-neutral-50 py-10 md:py-12">
+      <section className="border-b border-[var(--border)] bg-[var(--background)] py-10 md:py-12">
+
         <div className="mx-auto flex max-w-6xl flex-wrap justify-center gap-6 px-4 md:gap-8">
           {[
             { iconPath: 'M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4', key: 'home.trust.shipping', descKey: 'home.trust.shipping.desc' as const },
@@ -194,7 +179,8 @@ export default function HomePage() {
           ].map(({ iconPath, key, descKey }) => (
             <div
               key={key}
-              className="card flex flex-col gap-3 px-6 py-5 md:flex-row md:items-center md:gap-4 md:px-8 md:py-6 border border-neutral-200 dark:border-neutral-700 dark:bg-neutral-800"
+              className="card flex flex-col gap-3 px-6 py-5 md:flex-row md:items-center md:gap-4 md:px-8 md:py-6 border border-[var(--border)] bg-[var(--surface)]"
+
             >
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-green-50 dark:bg-green-900/30">
                 <svg className="h-6 w-6 text-green-600 dark:text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -202,8 +188,8 @@ export default function HomePage() {
                 </svg>
               </div>
               <div>
-                <p className="font-semibold text-neutral-900 dark:text-neutral-100">{t(key)}</p>
-                <p className="mt-1 text-sm text-neutral-600 dark:text-neutral-400">{t(descKey)}</p>
+                <p className="font-semibold text-[var(--foreground)]">{t(key)}</p>
+                <p className="mt-1 text-sm text-[var(--muted)]">{t(descKey)}</p>
               </div>
             </div>
           ))}

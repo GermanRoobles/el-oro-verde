@@ -1,25 +1,27 @@
 export default function TrustBar() {
     const trustItems = [
         {
-            text: 'Envío 24h',
-            subtext: 'Península',
+            text: 'SHIP_STATUS: 24H',
+            subtext: 'PENINSULA_OK',
         },
         {
-            text: 'Pago Seguro',
-            subtext: '100% Protegido',
+            text: 'PAY_GATEWAY',
+            subtext: 'SECURE_100%',
         },
         {
-            text: 'Regalo',
-            subtext: 'En cada pedido',
+            text: 'BONUS_ITEM',
+            subtext: 'INCLUDED',
         },
         {
-            text: '9/10 Valoración',
-            subtext: '+5000 clientes',
+            text: 'CUST_RATING',
+            subtext: '9.8/10',
         },
     ];
 
+
     return (
-        <div className="border-b border-[var(--border)] bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900">
+        <div className="border-b border-[var(--border)] bg-[var(--background)]">
+
 
 
             <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
@@ -46,11 +48,13 @@ export default function TrustBar() {
                                 />
                             </svg>
                             <div className="flex flex-col items-start">
-                                <span className="text-sm font-semibold text-neutral-900 sm:text-base dark:text-neutral-100">
+                                <span className="text-sm font-semibold text-[var(--foreground)] sm:text-base">
+
 
                                     {item.text}
                                 </span>
-                                <span className="hidden text-xs text-neutral-600 sm:block dark:text-neutral-400">
+                                <span className="hidden text-xs text-[var(--muted)] sm:block">
+
 
                                     {item.subtext}
                                 </span>

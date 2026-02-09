@@ -58,13 +58,16 @@ export default function Roulette() {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="floating-roulette-btn fixed right-2 bottom-4 z-40 flex flex-col items-center gap-0.5 rounded-lg border-2 border-neutral-300 bg-white px-2 py-2 shadow-sm transition hover:border-green-600 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 sm:right-4 sm:gap-1 sm:rounded-xl sm:px-3 sm:py-3 dark:border-neutral-600 dark:bg-neutral-800 dark:hover:border-green-500"
+        className="floating-roulette-btn fixed right-2 bottom-4 z-40 flex flex-col items-center gap-0.5 rounded-lg border-2 border-[var(--border)] bg-[var(--surface)] px-2 py-2 shadow-sm transition hover:border-[var(--accent)] hover:shadow-md focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:ring-offset-2 sm:right-4 sm:gap-1 sm:rounded-xl sm:px-3 sm:py-3"
+
         aria-label={t('roulette.cta')}
       >
-        <svg className="h-5 w-5 text-neutral-600 dark:text-neutral-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg className="h-5 w-5 text-[var(--muted)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
         </svg>
-        <span className="text-[9px] font-semibold uppercase tracking-wide text-neutral-700 whitespace-nowrap sm:text-[10px] dark:text-neutral-200">
+        <span className="text-[9px] font-semibold uppercase tracking-wide text-[var(--foreground)] whitespace-nowrap sm:text-[10px]">
+
           {t('roulette.cta')}
         </span>
       </button>
