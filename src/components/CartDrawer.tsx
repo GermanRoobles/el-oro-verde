@@ -95,7 +95,6 @@ export default function CartDrawer({ open, onClose }: CartDrawerProps) {
                   <button
                     type="button"
                     onClick={() => removeItem(item.productId)}
-                    onClick={() => removeItem(item.productId)}
                     className="rounded-lg p-1.5 text-[var(--muted)] transition hover:bg-red-50 hover:text-red-600 dark:hover:bg-red-900/20 dark:hover:text-red-400"
 
                     aria-label="Quitar"
