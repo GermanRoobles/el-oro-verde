@@ -153,14 +153,29 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-4 md:px-6">
           <h2 className="section-title mb-2 text-center text-lg font-bold text-[var(--foreground)] md:text-xl">{t('home.brands.title')}</h2>
           <p className="mb-8 text-center text-sm text-[var(--muted)]">{t('home.brands.sub')}</p>
-          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8">
-            {['El Oro Verde', 'BioBizz', 'RAW', 'OCB', 'Generic', 'Clipper', 'Juicy', 'Jano'].map((brandName) => (
+          <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 grayscale md:opacity-70 transition-all hover:grayscale-0 hover:opacity-100">
+            {[
+              { name: 'El Oro Verde', src: '/logo.png', width: 60 },
+              { name: 'BioBizz', src: '/brands/Biobizz-Logo-03.jpg', width: 80 },
+              { name: 'RAW', src: '/brands/raw.png', width: 80 },
+              { name: 'OCB', src: '/brands/ocb.svg', width: 70 },
+              { name: 'Clipper', src: '/brands/clipper.jpg', width: 70 },
+              { name: 'Juicy', src: '/brands/juicy.jpeg', width: 70 },
+              { name: 'Jano', src: '/brands/jano.png', width: 70 },
+            ].map((brand) => (
               <Link
-                key={brandName}
+                key={brand.name}
                 href="/tienda"
-                className="rounded-xl border border-[var(--border)] bg-[var(--background)] px-5 py-3 text-sm font-semibold text-[var(--foreground)] transition hover:border-[var(--accent)]/50 hover:bg-[var(--accent-light)] hover:text-[var(--accent)]"
+                className="group relative flex h-16 w-24 items-center justify-center transition hover:scale-110 md:h-20 md:w-32"
+                title={brand.name}
               >
-                {brandName}
+                <Image
+                  src={brand.src}
+                  alt={brand.name}
+                  width={brand.width}
+                  height={60}
+                  className="max-h-12 w-auto object-contain dark:invert"
+                />
               </Link>
             ))}
           </div>

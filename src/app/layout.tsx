@@ -20,8 +20,29 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "El Oro Verde - Growshop",
-  description: "Cultivo, CBD y parafernalia. El Oro Verde growshop.",
+  title: {
+    template: "%s | El Oro Verde",
+    default: "El Oro Verde - Growshop Online",
+  },
+  description: "Tu growshop de confianza. Cultivo, CBD, Parafernalia y Accesorios con envíos discretos y el mejor asesoramiento.",
+  keywords: ["growshop", "cultivo", "cbd", "semillas", "parafernalia", "el oro verde"],
+  authors: [{ name: "El Oro Verde" }],
+  openGraph: {
+    title: "El Oro Verde - Growshop Online",
+    description: "Todo para tu autocultivo y bienestar. Calidad y discreción garantizada.",
+    url: "https://eloroverde.com",
+    siteName: "El Oro Verde",
+    locale: "es_ES",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "El Oro Verde - Growshop Online",
+    description: "Tu growshop de confianza. Cultivo, CBD y Parafernalia.",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export const viewport: Viewport = {
