@@ -19,7 +19,9 @@ export default function TrustBar() {
     ];
 
     return (
-        <div className="border-b border-[var(--border)] bg-neutral-50">
+        <div className="border-b border-[var(--border)] bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-900">
+
+
             <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
                     {trustItems.map((item, index) => (
@@ -29,7 +31,8 @@ export default function TrustBar() {
                         >
                             {/* Checkmark icon instead of emoji */}
                             <svg
-                                className="h-4 w-4 text-green-600 flex-shrink-0"
+                                className="h-4 w-4 text-green-600 flex-shrink-0 dark:text-green-500"
+
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -43,10 +46,12 @@ export default function TrustBar() {
                                 />
                             </svg>
                             <div className="flex flex-col items-start">
-                                <span className="text-sm font-semibold text-neutral-900 sm:text-base">
+                                <span className="text-sm font-semibold text-neutral-900 sm:text-base dark:text-neutral-100">
+
                                     {item.text}
                                 </span>
-                                <span className="hidden text-xs text-neutral-600 sm:block">
+                                <span className="hidden text-xs text-neutral-600 sm:block dark:text-neutral-400">
+
                                     {item.subtext}
                                 </span>
                             </div>

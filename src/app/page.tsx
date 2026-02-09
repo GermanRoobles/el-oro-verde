@@ -37,10 +37,12 @@ export default function HomePage() {
   const ProductCard = ({ p, index = 0 }: { p: Product; index?: number }) => (
     <Link
       href={`/producto/${p.slug}`}
-      className="group relative animate-fade-in-up overflow-hidden rounded-xl border border-neutral-200 bg-white opacity-0 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
+      className="group relative animate-fade-in-up overflow-hidden rounded-xl border border-neutral-200 bg-white opacity-0 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md dark:border-neutral-700 dark:bg-neutral-800"
+
       style={{ animationDelay: `${index * 50}ms`, animationFillMode: 'forwards' }}
     >
-      <div className="relative aspect-square overflow-hidden bg-neutral-50">
+      <div className="relative aspect-square overflow-hidden bg-neutral-50 dark:bg-neutral-900/50">
+
         <Image
           src={imgSrc(p)}
           alt={name(p)}
@@ -54,12 +56,15 @@ export default function HomePage() {
         <WishlistButton productId={p.id} product={p} size="sm" />
       </div>
       <div className="p-4">
-        <p className="text-xs font-medium uppercase tracking-wider text-neutral-500">{p.brand}</p>
-        <h3 className="mt-1.5 font-semibold leading-snug text-neutral-900 transition-colors group-hover:text-green-600">
+        <p className="text-xs font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400">{p.brand}</p>
+
+        <h3 className="mt-1.5 font-semibold leading-snug text-neutral-900 transition-colors group-hover:text-green-600 dark:text-neutral-100 dark:group-hover:text-green-400">
+
           {name(p)}
         </h3>
         <p className="mt-2 flex items-baseline gap-2">
-          <span className="text-lg font-bold text-green-600">{price(p)} €</span>
+          <span className="text-lg font-bold text-green-600 dark:text-green-400">{price(p)} €</span>
+
           {p.priceOffer != null && (
             <span className="text-sm text-neutral-500 line-through">{p.price.toFixed(2)} €</span>
           )}
