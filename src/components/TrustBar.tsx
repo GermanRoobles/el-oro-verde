@@ -1,20 +1,21 @@
 export default function TrustBar() {
+
     const trustItems = [
         {
-            text: 'SHIP_STATUS: 24H',
-            subtext: 'PENINSULA_OK',
+            text: 'Envío rápido',
+            subtext: 'Recibe tu pedido en 24-48 h en la península',
         },
         {
-            text: 'PAY_GATEWAY',
-            subtext: 'SECURE_100%',
+            text: 'Compra segura',
+            subtext: 'Pago seguro y datos protegidos',
         },
         {
-            text: 'BONUS_ITEM',
-            subtext: 'INCLUDED',
+            text: 'Atención al cliente',
+            subtext: 'Asesoramiento por teléfono, email o en tienda',
         },
         {
-            text: 'CUST_RATING',
-            subtext: '9.8/10',
+            text: 'Devoluciones fáciles',
+            subtext: '14 días para devolver sin preguntas',
         },
     ];
 

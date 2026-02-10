@@ -16,7 +16,7 @@ export default function HeroBento() {
 
                     <div className="relative z-10 max-w-2xl">
                         <span className="font-mono-tech inline-block rounded border border-green-500/30 bg-green-500/10 px-2 py-1 text-xs font-bold uppercase tracking-wider text-green-600 backdrop-blur-sm dark:text-green-400">
-                            [SYSTEM_READY]
+                            GROWSHOP ONLINE
                         </span>
                         <h1 className="mt-4 font-heading text-4xl font-extrabold tracking-tight text-[var(--foreground)] sm:text-5xl md:text-6xl">
 
@@ -38,7 +38,7 @@ export default function HeroBento() {
                     </div>
 
                     {/* Abstract Tech Background/Image */}
-                    <div className="absolute right-0 top-0 h-full w-2/3 opacity-10 bg-[url('https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center grayscale dark:opacity-20 mix-blend-multiply dark:mix-blend-overlay pointer-events-none" />
+                    <div className="absolute right-0 top-0 h-full w-2/3 opacity-10 bg-[url('/hero-cultivation.jpg')] bg-cover bg-center grayscale dark:opacity-20 mix-blend-multiply dark:mix-blend-overlay pointer-events-none" />
                     <div className="absolute -bottom-24 -right-24 h-64 w-64 rounded-full bg-green-500/20 blur-3xl filter" />
                 </div>
 
@@ -46,14 +46,14 @@ export default function HeroBento() {
                 <div className="group relative col-span-1 overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-sm transition-all hover:border-[var(--accent)] md:col-span-4 md:row-span-1">
 
                     <Image
-                        src="https://images.unsplash.com/photo-1614145121029-83a9f7e46dc6?q=80&w=1000&auto=format&fit=crop"
-                        alt="Lighting Systems"
+                        src="/banners/cultivo.jpg"
+                        alt="Iluminación Profesional"
                         fill
                         className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent" />
                     <div className="relative z-10 flex h-full flex-col justify-end">
-                        <span className="font-mono-tech text-xs text-green-400">:: FEATURED_MODULE</span>
+                        <span className="font-mono-tech text-xs text-green-400">DESTACADO</span>
                         <h3 className="mt-1 text-xl font-bold text-white">Iluminación Pro</h3>
                         <Link href="/tienda?category=iluminacion" className="mt-3 flex items-center text-sm font-bold text-white hover:text-green-400">
                             <span className="underline decoration-green-500 underline-offset-4">EXPLORAR</span>
@@ -66,8 +66,7 @@ export default function HeroBento() {
                 <div className="group relative col-span-1 flex flex-col justify-center overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 shadow-sm transition-all hover:border-[var(--accent)]/50 md:col-span-4 md:row-span-1">
 
                     <span className="font-mono-tech mb-4 text-[10px] font-bold uppercase text-[var(--muted)]">
-
-             // QUICK_ACCESS
+                        ACCESO RÁPIDO
                     </span>
                     <div className="grid grid-cols-2 gap-3">
                         <Link href="/tienda?category=cultivo" className="group/item flex items-center justify-between rounded border border-[var(--border)] bg-[var(--background)] p-3 transition hover:border-[var(--accent)] hover:bg-[var(--accent-light)]">
@@ -86,7 +85,7 @@ export default function HeroBento() {
                             <span className="text-xs text-green-600 opacity-0 transition-opacity group-hover/item:opacity-100">→</span>
                         </Link>
                         <Link href="/tienda?category=ofertas" className="group/item flex items-center justify-between rounded border border-[var(--border)] bg-[var(--background)] p-3 transition hover:border-[var(--accent)] hover:bg-[var(--accent-light)]">
-                            <span className="text-sm font-semibold text-[var(--foreground)]">Offers</span>
+                            <span className="text-sm font-semibold text-[var(--foreground)]">Ofertas</span>
 
                             <span className="text-xs text-green-600 opacity-0 transition-opacity group-hover/item:opacity-100">→</span>
                         </Link>

@@ -87,12 +87,12 @@ export default function HomePage() {
     </Link>
   );
 
-  const heroBanner = '/hero-professional.png';
+  const heroBanner = '/hero-cultivation.jpg';
   const categoryBanners = [
-    { id: 'cultivo', href: '/tienda?category=cultivo', img: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800&q=80', labelKey: 'home.banner.cultivo' as const },
-    { id: 'cbd', href: '/tienda?category=cbd', img: 'https://images.unsplash.com/photo-1574944985070-8f3ebcfe5e5e?w=800&q=80', labelKey: 'home.banner.cbd' as const },
-    { id: 'parafernalia', href: '/tienda?category=parafernalia', img: 'https://images.unsplash.com/photo-1518531933037-91b2f5f1cc45?w=800&q=80', labelKey: 'home.banner.parafernalia' as const },
-    { id: 'semillas', href: '/tienda?category=cultivo', img: 'https://images.unsplash.com/photo-1597848212624-a19eb5e8e1e6?w=800&q=80', labelKey: 'home.banner.semillas' as const },
+    { id: 'cultivo', href: '/tienda?category=cultivo', img: '/banners/cultivo.jpg', labelKey: 'home.banner.cultivo' as const },
+    { id: 'cbd', href: '/tienda?category=cbd', img: '/banners/cbd.jpg', labelKey: 'home.banner.cbd' as const },
+    { id: 'parafernalia', href: '/tienda?category=parafernalia', img: '/banners/parafernalia.jpg', labelKey: 'home.banner.parafernalia' as const },
+    { id: 'semillas', href: '/tienda?category=cultivo', img: '/banners/semillas.jpg', labelKey: 'home.banner.semillas' as const },
   ] as const;
 
   return (
